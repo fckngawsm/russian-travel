@@ -55,9 +55,10 @@
     font-weight: 400;
 }
 .lead__image {
+    display: block;
     max-width: 100%;
     height: auto;
-    margin: 64px 148px 8px;
+    margin: 0 auto;
 }
 .caption{
     margin-left: 148px;
@@ -109,5 +110,54 @@
 /* places */
 .places{
     max-width: 984px;
-
+    margin: 92px auto;
+}
+.place{
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: 460px 484px;
+    grid-template-rows: auto 460px;
+    gap: 48px 40px;
+    grid-template-areas:
+                        "place__title place__website"
+                        "place__image place__paragraph";
+}
+.place__title{
+    margin: 0;
+    max-width: 460px;
+    font-size: 72px;
+    line-height: 1.06;
+    font-weight: 900;
+    grid-area: place__title;
+}
+.place__image{
+    grid-area: place__image;
+}
+.place__website{
+    align-self: flex-end;
+    grid-area: place__website;
+}
+.place__paragraph{
+    grid-area: place__paragraph;
+}
+.place__text{
+    margin-top: 0;
+    margin-bottom: 26px;
+    font-size: 18px;
+    line-height: 1.63;
+    font-weight: 400;
+}
+.url__heading{
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: gray;
+}
+.url__link{
+    text-decoration: underline;
+    color:white;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 400;
 }
