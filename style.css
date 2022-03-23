@@ -1,0 +1,92 @@
+.page{
+    background-color: #2A2C2F;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    max-width: 1280px;
+    color:white;
+}
+/* header */
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.header__logo {
+    background-image: url(../russian-travel/images/__logo.svg);
+    width: 176px;
+    height: 52px;
+    margin: 28px 0 0 48px;
+}
+.header__lang{
+    margin-top: 46px;
+    margin-right: 48px;
+}
+.header__lang-link{
+    margin-right: 19px;
+    text-decoration-line: underline;
+    color:white;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+.header__lang-link:nth-child(2){
+    margin-right: 0;
+    text-decoration-line: none;
+}
+/* lead */
+.lead{
+    margin-top: 56px;
+}
+.lead__title{
+    max-width: 720px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 1.04;
+}
+.lead__subtitle{
+    margin: 32px auto 64px;
+    text-align: center;
+    max-width: 640px;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+.lead__image {
+    margin: 64px 148px 8px;
+}
+.caption{
+    margin-left: 148px;
+    margin-top: 8px;
+    font-size: 10px;
+    line-height: 1.4;
+    letter-spacing: 1.5px;
+}
+/* intro */
+.intro{
+    margin: auto 148px;
+}
+.intro__title{
+    margin: 0;
+    max-width: 690px;
+    font-size: 54px;
+    line-height: 107px;
+    margin-bottom: 40px;
+}
+.intro__text{
+    max-width: 690px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.625;
+}
+.intro__list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 1.5;
+    font-weight: 400;
+    margin: 30px 0 92px;
+}
