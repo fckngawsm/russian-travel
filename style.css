@@ -36,6 +36,7 @@
 /* lead */
 .lead{
     margin-top: 56px;
+    margin: 0 auto;
 }
 .lead__title{
     max-width: 720px;
@@ -54,6 +55,8 @@
     font-weight: 400;
 }
 .lead__image {
+    max-width: 100%;
+    height: auto;
     margin: 64px 148px 8px;
 }
 .caption{
@@ -89,4 +92,22 @@
     line-height: 1.5;
     font-weight: 400;
     margin: 30px 0 92px;
+}
+
+/* photo-grid */
+.photo-grid{
+    display: grid;
+    margin: 92px 48px;
+    max-width: 1184px;
+    grid-template-columns: repeat(4,1fr);
+    gap: 16px;
+}
+.photo-grid__item{
+    max-width: 100%;
+    height: auto;
+}
+/* places */
+.places{
+    max-width: 984px;
+
 }
