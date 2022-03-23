@@ -161,3 +161,6 @@
     line-height: 1.2;
     font-weight: 400;
 }
+.url__link:hover{
+    cursor: pointer;
+}
