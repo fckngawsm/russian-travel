@@ -1,0 +1,17 @@
+.place__description {
+    display: flex;
+    width: 100%;
+}
+
+@media screen and (max-width:1024px)  {
+    .place__description {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .place__description {
+        display: flex;
+        flex-direction: column;
+    }
+}

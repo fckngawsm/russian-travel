@@ -1,0 +1,21 @@
+.caption{
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    margin-top: 8px;
+    font-size: 10px;
+    line-height: 1.4;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+}
+
+@media screen and (max-width:768px) {
+    .caption {
+        margin-left: 24px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .caption {
+        margin-left: 16px;
+    }
+}

@@ -1,5 +1,3 @@
-
-
 @font-face {
   font-family: 'Inter';
   font-style:  normal;
@@ -16,9 +14,6 @@
   src: url("Inter-Italic.woff2?v=3.19") format("woff2"),
        url("Inter-Italic.woff?v=3.19") format("woff");
 }
-
-
-
 @font-face {
   font-family: 'Inter';
   font-style:  normal;
@@ -35,7 +30,6 @@
   src: url("Inter-BlackItalic.woff2?v=3.19") format("woff2"),
        url("Inter-BlackItalic.woff?v=3.19") format("woff");
 }
-
 /* -------------------------------------------------------
 Variable font.
 Usage:
@@ -61,7 +55,6 @@ Usage:
   font-named-instance: 'Italic';
   src: url("Inter-italic.var.woff2?v=3.19") format("woff2");
 }
-
 @font-face {
   font-family: 'Inter';
   font-style:  normal;
@@ -78,7 +71,6 @@ Usage:
   src: url("Inter-BoldItalic.woff2?v=3.19") format("woff2"),
        url("Inter-BoldItalic.woff?v=3.19") format("woff");
 }
-
 /* --------------------------------------------------------------------------
 [EXPERIMENTAL] Multi-axis, single variable font.
 

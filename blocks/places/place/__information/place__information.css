@@ -1,0 +1,21 @@
+.place__information {
+    margin-bottom: 48px;
+    width: 100%;
+    max-height: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width:768px) {
+    .place__information {
+        max-width: 720px;
+    }
+}
+@media screen and (max-width:450px) {
+    .place__information {
+        max-width: 288px;
+        margin-left: 16px;
+        margin-bottom: 0;
+        flex-direction: column;
+    }
+}
