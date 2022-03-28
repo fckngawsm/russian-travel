@@ -17,3 +17,5 @@
  На данном сайте используется методология БЭМ
 
 **Ссылка на GitHub Pages**
+
+https://fckngawsm.github.io/russian-travel/
