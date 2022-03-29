@@ -1,4 +1,4 @@
-.header__lang-link{
+.header__lang-link {
     margin-right: 18px;
     text-decoration-line: underline;
     color:white;
@@ -7,7 +7,7 @@
     font-weight: 400;
 }
 
-.header__lang-link:nth-child(2){
+.header__lang-link:nth-child(2) {
     margin-right: 0;
     text-decoration-line: none;
 }

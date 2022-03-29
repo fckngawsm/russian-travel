@@ -6,18 +6,18 @@
     line-height: 1.63;
 }
 
-.place__text:nth-child(2){
+.place__text:nth-child(2) {
     margin-bottom: 0;
 }
 
-@media screen and (max-width:1024px)  {
-    .place__text{
+@media screen and (max-width:1024px) {
+    .place__text {
         margin-bottom: 27px;
     }
 }
 
 @media screen and (max-width:768px) {
-    .place__text{
+    .place__text {
         margin-bottom: 26px;
     }
 }

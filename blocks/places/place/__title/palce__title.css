@@ -7,14 +7,14 @@
     font-style: normal;
 }
 
-@media screen and (max-width:1024px)  {
+@media screen and (max-width:1024px) {
     .place__title {
         max-width: 50%;
     }
 }
 
 @media screen and (max-width:768px) {
-    .place__title{
+    .place__title {
         max-width: 48%;
         font-size: 42px;
         line-height: 1.1;
