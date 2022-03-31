@@ -7,12 +7,12 @@
 
 @media screen and (max-width:768px) {
     .place__image {
-        max-width: 48%;
+        max-width: 47.2%;
         height: 50%;
     }
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:740px) {
     .place__image {
         max-width:100%;
     }

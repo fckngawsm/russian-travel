@@ -3,12 +3,17 @@
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: 1;
+    line-height: 1.7;
     letter-spacing: 2px;
     color:gray;
+    text-transform: uppercase;
 }
 
-@media screen and (max-width:450px) {
+@media screen and(max-width:768px) {
+
+}
+
+@media screen and (max-width:740px) {
     .place__url-heading {
         margin-bottom: 12px;
     }

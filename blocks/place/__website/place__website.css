@@ -19,7 +19,7 @@
     }
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:740px) {
     .place__website {
         margin-top: 32px;
         margin: 32px 0 32px;
