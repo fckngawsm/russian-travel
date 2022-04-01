@@ -8,6 +8,10 @@
     opacity: 1;
 }
 
+.header__lang-link:last-child {
+    margin-right: 0;
+}
+
 .header__lang-link:hover {
     opacity: .8;
     transition: opacity linear .8s;

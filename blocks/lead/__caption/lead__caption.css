@@ -9,13 +9,13 @@
 }
 
 @media screen and (max-width:768px) {
-    .caption {
+    .lead__caption {
         margin-left: 24px;
     }
 }
 
 @media screen and (max-width:450px) {
-    .caption {
+    .lead__caption {
         margin-left: 16px;
     }
 }
